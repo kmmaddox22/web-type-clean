@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   /* background-image: linear-gradient(white,rgb(235, 255, 179),coral); */
+  }
+  @font-face {
+    font-family: "Avenir";
+    src: url(fonts/Avenir.ttc);
+  }
+
+  .container{
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 3%;
+    
+  }
+
+  .vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 700px;
+    margin-left: 6.9%;
+    margin-top: -120px;
+
+  }
+
+  h1{
+    font-family: "Avenir";
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  h3{
+    font-family: "Avenir";
+    font-weight: 600;
+    font-size: 24px;
+  }
+  body{
+    font-family: "Avenir";
+    font-size: 14px;
+  }
+
+  
+  div {
+    border: solid .01px rgb(219, 219, 219);
+    height: 20vh;
+  }
+  
+  .home{
+    background-image: linear-gradient(white,rgb(235, 255, 179),coral);
+    height: 800px;
+  }
+  .nav{
+    height: 55px;
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 2%;
+    background-color: white;
+  }
+  
+  .cols{
+    display: flex;
+    height: 20%;
+    padding-bottom: 0%;
+    
+   
+  }
+
+  .col-one {
+    text-align: left;
+    width: 5%;
+  }
+  
+  .col-two {
+    text-align: left;
+    width: 15.8%;
+  }
+  
+  .col-three {
+    text-align: left;
+    width:20%
+  }
+  
+  .col-four {
+    text-align: left;
+    width:20%
+  }
+  .col-five {
+    text-align: left;
+    width:20%
+  }
+  
+  .col-six {
+    text-align: left;
+    width:20%
+  }
+  
+  .col-seven {
+    text-align: left;
+    width:20%
+  }
+  
+
+  .col-time {
+    text-align: center;
+    width: 5%;
+  }
+  
+  .col-bfast {
+    text-align: center;
+    text-decoration-line: underline;
+    width: 15.8%;
+  }
+
+  .col-bfast:hover {
+    color: coral;
+  }
+  
+  .col-lunch {
+    text-align: center;
+    text-decoration-line: underline;
+    width:20%
+  }
+  .col-lunch:hover {
+    color: coral;
+  }
+  
+  .col-snack {
+    text-align: center;
+    text-decoration-line: underline;
+    width:20%
+  }
+
+  .col-snack:hover {
+    color: coral;
+  }
+  .col-dinner {
+    text-align: center;
+    text-decoration-line: underline;
+    width:20%
+  }
+  .col-dinner:hover {
+    color: coral;
+  }
+  .col-dessert {
+    text-align: center;
+    text-decoration-line: underline;
+    width:20%
+  }
+  .col-dessert:hover {
+    color: coral;
+  }
+  .col-drinks {
+    text-align: center;
+    text-decoration-line: underline;
+    width:20%
+  }
+
+  .col-drinks:hover {
+    color: coral;
+  }
+  
