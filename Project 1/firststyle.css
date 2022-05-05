@@ -1,0 +1,82 @@
+*{
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Shady";
+    src: url(Shady.ttf);
+}
+@font-face {
+    font-family: "shady_regular";
+    src: url(shade-Regular.woff2);
+}
+
+@keyframes width-animation {
+	from{
+		font-variation-settings: 'wdth' 100;
+	}
+	to{
+		font-variation-settings: 'wdth' 150;
+	}
+} 
+
+#blur{
+    font-size: 300px;
+	color: transparent;
+	text-shadow: 0 0 100px #000;
+}
+
+body{
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h1{
+    font-family: "Shady"; 
+    font-size: 300px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: .6;
+    color: coral;
+    text-align: center;
+    font-variation-settings: 400ms;
+    animation: infinite alternate ;
+}
+
+h2{
+    font-family: "shade_regular"; 
+    color: white;
+}
+
+h3{
+    font-family: "shade_regular";
+    color: white;
+}
+
+p{
+    font-family: "shade";
+    color: white;
+
+}
+
+li{
+    font-family: "shade";
+    color: coral;
+
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.lightmode{
+	background: rgb(255, 255, 255);
+	color: coral;
+	font-variation-settings: 'wdth' 150;
+}
+
+.lightmode h1{
+	color: coral;
+}
