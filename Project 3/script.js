@@ -5,7 +5,6 @@
    slideSource.classList.toggle('fade');
   }, speed);
 
-<<<<<<< HEAD
   var speed = 2800; 
   var t = setInterval(function(){
  var slideSource = document.getElementById('alphabet');
@@ -13,8 +12,6 @@
 }, speed);
 
 
-=======
->>>>>>> d8040d7995150c518a473f194dc6f2a2b07d073d
  // var speed = 2800; 
 //  var t = setInterval(function(){
  //var slideSource = document.getElementById('looking-for-shade');
