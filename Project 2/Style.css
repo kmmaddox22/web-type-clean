@@ -1,0 +1,558 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ html{
+     font-size: 40px;
+ }
+  
+  .cols{
+    display: flex;
+  }
+
+  .cols.special{
+    display: flex;
+  }
+
+ 
+
+  .col-left {
+    border: solid 0px black;
+    height: flex;
+    width: 75%;
+  }
+
+  .col-left.special {
+    border: solid 0px black;
+    height: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .col-right {
+    border: solid 0px black;
+    height: flex;
+    width: 25%;
+  }
+
+
+  body{
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+
+li span{
+    text-underline-position: below;
+}
+
+.decorative-line{
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+    
+}
+
+h1{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 300;
+    font-size: 280px;
+    color: rgb(255, 255, 255);
+    line-height: 40%;
+}
+
+h1:hover {
+  display: hover;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 300;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  line-height: 40%;
+}
+
+
+h2{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 250px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+
+
+h3{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 150px;
+    font-weight: 300;
+    line-height: 115px;
+    color: rgb(84, 96, 49);
+}
+
+
+
+h4{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+
+h5{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 70px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+
+h6{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(84, 96, 49);
+}
+
+.seeing{
+  font-family:'Red Hat Display', sans-serif;
+  font-size: 12px;
+  padding-left: 1%;
+  color: rgb(84, 96, 49);
+}
+
+
+.nav-container{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(84, 96, 49);
+}
+
+
+/*.nav-about{
+    flex: .25;
+    margin-top: 35px;
+}
+
+.nav-how{
+    flex: .25;
+    margin-top: 35px;
+}
+
+.nav-why{
+    flex: .25;
+    margin-top: 35px;
+}
+
+
+.nav-why-not{
+    flex: .25;
+    margin-top: 35px;
+}
+*/
+
+.nav-site-logo{
+    flex: .25;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+
+
+.left-landing{
+    background-color: rgb(84, 96, 49);
+    padding-left: 20%;
+    padding-top: 14%;
+    padding-bottom: 20%;
+
+}
+
+
+
+.container-right{ 
+    overflow: scroll;
+    height: 550px;
+    background-size: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-right.special{ 
+  overflow: scroll;
+  height: 550px;
+  background-size: 400px;
+  width: 320px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.small-nav{
+    background-color: rgb(84, 96, 49);
+    height: 60px;
+    padding-bottom: 11%;
+}
+
+.smaller-nav{
+    font-size: 14px;
+    display: flex;
+    padding-left: 20%;
+}
+
+.EXAMPLES{
+  font-size: 14px;
+    padding-left: 0%;
+}
+
+.type-is-image{
+    flex: 1;
+}
+
+
+.juxt{
+    flex:1 ;
+}
+
+
+.example-images{
+    overflow: scroll;
+    align-content: center;
+    width: 100%;
+    padding-left: 11%;
+    padding-right: 11%;
+    height: 580px;
+    background-color: rgb(84, 96, 49);
+}
+
+.canals{
+    width: 100%;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.engineer{
+    width: 100%;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.gold{
+    width: 100%;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.debut{
+    width: 100%;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.fruit{
+    width: 100%;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.artdirector{
+    width: 100%;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.januart{
+    width: 100%;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.Example-title{
+  padding-left: 2%;
+  height: 600px;
+  padding-top: 6.5%;
+  padding-bottom: 10%;
+}
+
+.the-history-of{
+    height: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.THE{
+    color: rgb(84, 96, 49);
+    margin-top: 15%;
+}
+
+.history-of{
+    margin-top: 10px;
+    margin-left: 0;
+    color: rgb(84, 96, 49);
+}
+
+.of{
+    margin-top: 0;
+    margin-left: 630px;
+    color: rgb(84, 96, 49);
+}
+
+.scale1{
+    margin-left: 0%;
+    color: rgb(84, 96, 49);
+}
+
+
+
+
+.history-copy{
+    flex: 1;
+    overflow: scroll;
+    background-color: rgb(84, 96, 49);
+    width: flex;
+    height: 582px;
+    padding-left: 8%;
+    padding-right: 10%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* width: 200px;
+    height: 40px; */
+}
+
+
+
+.footer{
+    background-color: rgb(84, 96, 49);
+    height: 400px;
+}
+
+
+.nav-site-logo-2{
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: coral;
+}
+
+@media only screen and (max-width: 500px) and (min-width:280px) {
+    .cols {
+      width: 100%; 
+      display:block;
+    }
+    .cols.special{
+      display: block;
+    }
+    .col-left.special {
+      width: 80%;
+    }
+    .col-left {
+      width: 100%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+    .col-right {
+      width: 100%;
+
+    }
+    body {
+      font-size: 100%;
+    }
+    h1 {
+      font-size: 115px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 100px;
+    }
+    h3 {
+      font-size: 100px;
+      line-height: 80%;
+    }
+    h4 {
+      font-size: 30px;
+    }
+    h5 {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 10px;
+    }
+    .nav-container {
+      width: 100%;
+    }
+    .left-landing {
+      width: 100%;
+      padding-left: 0%;
+    }
+
+    .container-right { 
+      width: 100%;
+    }
+    .small-nav {
+      width: 100%;
+    
+    }
+    .smaller-nav {
+      width: 100%;
+      font-size: 10px;
+    }
+    .EXAMPLES {
+      width: 80%;
+      font-size: 8px;
+      text-align: center;
+      padding-left: 20%;
+    }
+    .type-is-image {
+      font-size: 20px;
+    }
+    .juxt {
+      font-size: 20px;
+    }
+    .img src{
+      width: 0%;
+      height: 50%;
+      box-sizing: border-box;
+    }
+    .examples-images {
+      width: 100%;
+      height: 530px;
+      padding-left: 8%;
+      padding-right: 8%;
+      padding-top: 5%;
+      align-content: center;
+      box-sizing: border-box;
+    }
+
+    .seeing{
+      font-size: 10px;
+      padding-left: 2%;
+      width: 100%;
+      color: rgb(84, 96, 49);
+    }
+  
+    .canals {
+      width: 100%;
+      align-content: center;
+    }
+    .engineer {
+      width: 80%;
+      align-content: center;
+    }
+    .gold{
+      width: 80%;
+      align-content: center;
+    }
+    .debut {
+      width: 80%;
+      align-content: center;
+    }
+    .fruit {
+      width: 80%;
+      align-content: center;
+    }
+
+    .januart {
+      width: 80%;
+      align-content: center;
+    }
+
+    .artdirector {
+      width: 80%;
+      align-content: center;
+    }
+    body{
+      font-family:'Red Hat Display', sans-serif;
+      font-size: 14px;
+      color: rgb(255, 255, 255);
+    }
+    .the-history-of{
+      width: 100%;
+    }
+    .THE{
+        width: 100%;
+        color: rgb(84, 96, 49);
+    }
+
+    .history-of{
+      width: 100%;
+      color: rgb(84, 96, 49);
+    }
+
+    .scale1{
+      width: 100%;
+        color: rgb(84, 96, 49);
+    }
+    .Example-title{
+      padding-top: 10%;
+      padding-left: 5%;
+      height: 230px;
+      width: 100%;
+    }
+    .footer{
+      width: 100%;
+      height: 200px;
+    }
+    .history-copy{
+      background-color: rgb(84, 96, 49);
+      width: 100%;
+      height: 530px;
+      padding-left: 8%;
+      padding-right: 10%;
+      padding-top: 20px;
+      box-sizing: border-box;
+      /* width: 200px;
+      height: 40px; */
+    }
+
+  }
+
+/*
+
+  @media only screen and (max-width: 500px) and (min-width:280px) {
+    .artdirector {
+      width: 100%;
+    }
+    .container-right{ 
+      overflow: flex;
+      width: 320px;
+      background-color: rgb(255, 255, 255);
+  }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width:280px) {
+    .januart {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width:280px) {
+    .Examples-title {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width:280px) {
+    .the-history-of {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width:280px) {
+    .history-copy {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width:280px) {
+    .footer {
+      width: 100%;
+    }
+  }
+
