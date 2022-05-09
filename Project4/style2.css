@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.columns{
+  border: solid 1px black;
+  display: flex;
+}
+
+.category{
+/*    applies to all category divs */
+  border: 1px solid blue;
+  flex: 1;
+}
+
+.bfast{
+  background: yellow;
+}
+
