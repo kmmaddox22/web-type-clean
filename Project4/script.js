@@ -10,7 +10,7 @@ $(document).ready(function(){
   
                console.log(i, item); //check index and item in console
 
-               let key = item["MEALTYPE"];
+               let key = item["MEAL TYPE"];
 
                 let container = '.'+key;
                 console.log(container);
