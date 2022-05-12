@@ -1,6 +1,6 @@
 $(document).ready(function(){   
 
-    $.getJSON("recipe2.json")
+    $.getJSON("recipe3.json")
         .done(function( data ) {
            console.log(data);
   
