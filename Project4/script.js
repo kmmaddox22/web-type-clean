@@ -16,9 +16,10 @@ $(document).ready(function(){
                 console.log(container);
 
               //you can output each item into HTML
-               let element = `<div class="item">
+
+               let element = `<a href="${item["LINK"]}"><div class="item">
                  <div class="name">${item["NAME"]}</div>
-               </div>`
+               </div></a>`
 
                $(container).append(element);
 
