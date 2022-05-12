@@ -8,6 +8,22 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
   <script src="script.js"></script>
+  <script src="/common/jquery-3.4.1.min.js"></script>
+  <script>
+         $(document).ready(function() {
+            $("button").click(function(event){
+               $.getJSON('recipe3.json', function(MEALTIME) {
+                  $('#color').html('<p>Red:' + mycolor.r+ '</p>');
+                  $('#color').append('<p>Green:' + mycolor.g+ '</p>');
+                  $('#color').append('<p>Blue:' + mycolor.b+ '</p>');
+               });
+            });
+               
+         });
+      </script>
+         
+               
+      </script>
 </head>
 
 <body>
