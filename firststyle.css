@@ -1,6 +1,4 @@
-*{
-    background-color: black;
-}
+
 
 @font-face {
     font-family: "Shady";
@@ -28,8 +26,8 @@
 
 body{
     background-color: black;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 h1{
@@ -79,4 +77,52 @@ body{
 
 .lightmode h1{
 	color: coral;
+}
+
+
+.darkmode{
+	background-color: white;
+	color: coral;
+	font-variation-settings: 'wdth' 150;
+}
+
+.darkmode h1{
+	color: coral;
+}
+
+.darkmode body{
+    padding: 0;
+    color: white;
+}
+
+.darkmode p{
+    color: black;
+}
+
+.darkmode h2{
+    color: black;
+}
+
+.darkmode h3{
+    color: black;
+}
+
+.darkmode button{
+    color: black;
+}
+
+.darkmode *{
+    background-color: white;
+}
+
+.darkmode #blur{
+    font-size: 300px;
+	color: transparent;
+	text-shadow: 0 0 40px rgb(255, 180, 153);
+}
+
+
+
+button{
+    color: coral;
 }

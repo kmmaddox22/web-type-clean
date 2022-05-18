@@ -5,7 +5,7 @@
     }
 
     @font-face {
-      font-family: "Variable";
+      font-family: "Shadier";
       src: url("Shadier.woff2");
     }
 
@@ -14,13 +14,13 @@
     .experimentalfont {
 		font-size:24px;
 	    color:black;
-	    font-family: "Experiment";
+	    font-family: "Shadier";
       }
 
     .variable {
 	font-size:24px;
       color: black;
-      font-family: "Variable";
+      font-family: "Shadier";
 	  font-stretch: 0%;
 	  font-variation-settings: 'wdth' 0;
     }
@@ -32,6 +32,6 @@
 
 
 	#bigletter {
-		font-family: "Variable";
+		font-family: "Shadier";
 		font-variation-settings: 'wdth' var(--wdth);
 	}
