@@ -126,3 +126,40 @@ body{
 button{
     color: coral;
 }
+
+  @font-face {
+	    font-family: "Experiment";
+	    src: url("Shadier.woff2");
+    }
+
+    @font-face {
+      font-family: "Shadier";
+      src: url("Shadier.woff2");
+    }
+
+	
+
+    .experimentalfont {
+		font-size:24px;
+	    color:black;
+	    font-family: "Shadier";
+      }
+
+    .variable {
+	font-size:24px;
+      color: black;
+      font-family: "Shadier";
+	  font-weight: 300px;
+	  font-variation-settings: 'wdth' 0;
+    }
+
+	.variable:hover {
+		  font-weight: 900px;
+		  font-variation-settings: 'wdth' 900;
+		}
+
+
+	#bigletter {
+		font-family: "Shadier";
+		font-variation-settings: 'wdth' var(--wdth);
+	}
